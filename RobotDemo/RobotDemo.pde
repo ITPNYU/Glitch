@@ -11,7 +11,6 @@ void setup() {
 }
 
 void draw() {  
-  background(255);
   robot.type("redrum");
   if(random(1) < .5) {
     robot.type("\n");

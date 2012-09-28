@@ -30,7 +30,7 @@ void draw() {
   robot.keyPress(KeyEvent.VK_ENTER);
   robot.keyRelease(KeyEvent.VK_ENTER);
 
-  delay(1000 * (int) random(2, 16));
+  delay(1000 * (int) random(1, 2));
 
   if (frameCount % emoji.length == 0) {
     Collections.shuffle(Arrays.asList(emoji));
