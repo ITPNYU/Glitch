@@ -1,7 +1,13 @@
 byte raw[] = loadBytes("bee-in.jpg");
-for(int i = 0x03f4e; i < raw.length; i++) {
-  if(raw[i] > 'a' && raw[i] < 'e') {
-    raw[i]++;
+boolean inHeader = true;
+for(int i = 0; i < raw.length - 1; i++) {
+  if(raw[i] == (byte) 0xff && raw[i+1] == (byte) 0xda) {
+    inHeader = false;
+  }
+  if(!inHeader) {
+    if(raw[i] > 'a' && raw[i] < 'e') {
+      raw[i]++;
+    } 
   }
 }
 /*
