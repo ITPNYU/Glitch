@@ -2,7 +2,7 @@ PImage img;
 
 void setup() {
   size(512, 512, JAVA2D);
-  img = loadImage("marylin.png");
+  img = loadImage("marylin.jpg");
   img.loadPixels();
   img = glitch(img);
   img.updatePixels();
