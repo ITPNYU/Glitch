@@ -77,10 +77,10 @@ PImage pick(PImage img, int choice) {
 
 void setup() {
   size(512, 512, JAVA2D);
-  //img = loadImage("lena.png");
-  img = loadImage("mandrill.png");
-  //img = loadImage("bytebeat.png");
-  //img = loadImage("marylin.jpg");
+//  img = loadImage("lena.png");
+//  img = loadImage("mandrill.png");
+//  img = loadImage("bytebeat.png");
+  img = loadImage("marylin.jpg");
   pg = createGraphics(side * count, side * count, JAVA2D);
   pg.beginDraw();
   int i = 0;
