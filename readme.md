@@ -21,3 +21,4 @@ Cross platform software:
 
 * [Monglot](http://rosa-menkman.blogspot.com/2011/01/monglot.html) (OSX only).
 * [Extrafile](http://extrafile.org/) (OSX only).
+* [GoldMosh](http://jonesypop.com/goldmosh/#download) (OSX only).
